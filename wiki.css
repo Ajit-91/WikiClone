@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+ .left{
+    height: 173vh;
+    width: 200px;
+    background-color:rgba(233, 229, 229, 0.795);
+
+}
+.left .logo {
+    height: 240px;
+    width: 100%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.left hr{
+    margin: 50px 8px;
+}
+.left a{
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+a#main{
+    margin-top: 50px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.right {
+    background-color: rgba(238, 226, 226, 0.425);
+    width: 100%;
+    height: 100%;
+    padding: 10px;;
+}
+
+.right header{
+    text-align: right;
+} 
+.right header .top a{
+    margin-right: 20px;
+}
+.right a{
+    text-decoration: none;
+    margin: 0px auto;
+}
+.right header a:hover{
+    text-decoration: underline;
+}
+
+#navbar{
+    margin-top: 20px;
+}
+#navbar a{
+    margin-right: 20px;
+}
+#navbar input{
+    width: 250px;
+}
+h1{
+    margin: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align: justify;
+}
+.right img{
+    margin: 20px;
+    float: right;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+body footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    margin-bottom: 1px;
+}
+
+footer p{
+    margin: 1px 20px 6px 20px;
+    
+}
+footer a{
+    margin: 1px 20px;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer img{
+    height: 40px;
+    width: 10%;
+    float: right;
+    border: 1px solid rgba(0, 0, 255, 0.507);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
